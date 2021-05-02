@@ -3,18 +3,18 @@
 - Head over to [https://fabricmc.net/use/](https://fabricmc.net/use/) and download the installer (I used the `.jar` but it shouldn't matter which you use)
 - Run the installer, you should be greeted with this screen:
 
-![[Fabric Installer.png]]
+![](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Images/Fabric%20Installer.png?raw=true)
 
 - To keep things tidy were going to un-check `Create proflie`
 - Click `install`
 - You should get a screen saying the installation was successful:
 
-![[Successful Instalation.png]]
+![](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Images/Successful%20Instalation.png?raw=true)
 
 - Open the minecraft launcher and click on `Installations` at the top
 - First we need to open the `.minecraft` directory so hover over the row which says `Latest release` and click on the file icon on the right
 
-![[Launcher File Icon.png]]
+![](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Images/Launcher%20File%20Icon.png?raw=true)
 
 - Once you click on that it will the minecraft folder, here we want to create a new folder and name it something like `Fabric 1.16.5`, now we go back to the minecraft launcher
 - Click `New` in the installations tab
