@@ -2,8 +2,6 @@
 
 All of my random minecraft stuff
 
----
-
 See:
 
 - [here](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing-Fabric.md) for a guide on installing fabric.
