@@ -1,18 +1,18 @@
 # Installing Mods:
 
-Installing mods is really simple, all you have to do is put them in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing-Fabric.md). 
+Installing mods is really simple, all you have to do is put the `.jar` file in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing-Fabric.md). 
 
 It is generally preferred to install mods straight from GitHub (in the releases page on the right hand side) or from Modrinth instead of CurseForge as the releases available there will probably be more up to date (especially for GitHub). For the latest version (sometimes unstable) use GitHub actions or compile the mod yourself.
 
 ## Modrinth:
 
-- Click on the `versions` tab 
+- Click on the `versions` tab
 - Look for the version for the minecraft version you are using
 - Click the <svg data-v-48927166="" data-v-bca524f6="" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class=""><path data-v-48927166="" data-v-bca524f6="" d="M4 16L4 17C4 18.6569 5.34315 20 7 20L17 20C18.6569 20 20 18.6569 20 17L20 16M16 12L12 16M12 16L8 12M12 16L12 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg> icon
 
 ## CurseForge:
 
-- Click on the `files` tab 
+- Click on the `files` tab
 - Look for the version for the minecraft version you are using
 - Click the `Download` button
 
@@ -22,7 +22,7 @@ It is generally preferred to install mods straight from GitHub (in the releases 
 
 - Click on the `Releases` tab on the right
 - Check the titles for the correct version for the minecraft version you are using
-- Click on `Assets` to expand it 
+- Click on `Assets` to expand it
 - Click on the `.jar` file
 - If there are several `.jar` files chooses the one without `sources` or `dev` in the name
 
@@ -44,7 +44,7 @@ It is generally preferred to install mods straight from GitHub (in the releases 
 
 #### Requirements:
 
-To compile mods from source you will need Git and a Java 8 JDK. 
+To compile mods from source you will need Git and a Java 8 JDK.
 
 - Open a terminal window (cmd + space to open finder then type in terminal)
 - Now we need to install [Homebrew](https://brew.sh/)
@@ -77,7 +77,7 @@ brew install git
 
 ``` bash
 cd Desktop
-``` 
+```
 
 - Next type `git clone` with the URL you copied after it (you can also add `--depth=1` after to URL so it only downloads the most recent commits), press enter to run the command
 - Once it has cloned look at the first line which should say `Cloning into 'the mod name'...`
@@ -98,4 +98,3 @@ cd LambDynamicLights
 chmod +x ./gradlew
 ./gradlew shadowRemapJar --no-daemon
 ```
-
