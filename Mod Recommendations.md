@@ -1,10 +1,8 @@
 # Mods:
 
----
-
 ## Installing Mods:
 
-Installing mods is really simple, all you have to do is put them in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing%20Fabric.md). 
+See [here](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing%20Mods.md) for a guide on Installing mods. 
 
 It is generally preferred to install mods straight from GitHub (in the releases page on the right hand side) or from Modrinth instead of CurseForge as the releases available there will probably be more up to date (especially for GitHub).
 
@@ -22,15 +20,19 @@ Optifine is notorious for causing incompatibilities which are a pain for mod dev
 
 ### Incompatibilities:
 
-These mods are incompatible with each other so you will have to choose **one** set, they are compatible with all of the other mods not in this section. Iris and canvas are both works in progress so **expect them to break**, if you can't get iris to work then I'd recommend using canvas as it offers a more stable option.
+These mods are incompatible with each other so you will have to choose **one** set, they are compatible with all of the other mods not in this section. Basically pick either Iris, Canvas or Sodium and then add any of the mods from [this section](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Mod%20Recommendations.md#the-rest-of-the-mods).
+
+Iris and Canvas are both works in progress so **expect them to break**, if you can't get iris to work then I'd recommend using canvas as it offers a more stable option.
 
 #### Iris and Sodium:
 
-Iris is intended to be a replacement for optifine which maintains compatibility with optifine shaders. It is still a work in progress and many shaders don't yet work or only partially work. [Sildurs Shaders](https://sildurs-shaders.github.io/) are one of the few shaders that work almost fully however others, like BSL, are near to working. Iris is not yet production ready so you have to compile it yourself which is fairly simple. See [here](https://gist.github.com/xX-poggers-Xx/cdfccab0ee796870948d6affea5d3cdc) for a guide to compiling iris.
+Iris is intended to be a replacement for Optifine which maintains compatibility with Optifine shaders. It is still a work in progress and many shaders don't yet work or only partially work. [BSL](https://www.bitslablab.com/bslshaders/), [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders), [Sildur's Vibrant Shaders](https://sildurs-shaders.github.io/), and [XorDev's Shaderpacks](https://github.com/XorDev/Minecraft-Shaderpacks) work for the most part under Iris. Shadows are not yet implemented in the main Iris repository.
 
-To use shaders you need to edit `iris.properties` in the config folder in your minecraft folder. You will want to change the line that says `shaderPack=(internal)` to `shaderPack=the name of your shader pack` (e.g. `shaderPack=Sildurs Vibrant Shaders Volumetric Lighting.zip`). Alternatively the starline fork has a shader pack selection UI so you just put the shaders in the shaderpacks folder in your minecraft directory and then select them by going into `mods > iris > configure` (assuming you have mod menu installed).
+ Iris is not yet production ready so you have to compile it yourself.
 
-I'd recommend using sodium alongside iris as it significantly improves the performance far beyond what was possible with optifine and doesn't take too much extra effort to set up.
+To use shaders you need to edit `iris.properties` in the config folder in your minecraft folder. You will want to change the line that says `shaderPack=(internal)` to `shaderPack=the name of your shader pack` (e.g. `shaderPack=Sildurs Vibrant Shaders.zip`). Alternatively the starline fork has a shader pack selection UI so you just put the shaders in the shaderpacks folder in your minecraft directory and then select them by going into `mods > iris > configure` (assuming you have mod menu installed).
+
+I'd recommend using sodium alongside iris as it significantly improves the performance far beyond what was possible with Optifine and doesn't take too much extra effort to set up.
 
 |                               Mod Name                               |                                                Description                                                |                                                                                              Links                                                                                               |                                                          Any thing else                                                          |
 |:--------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
@@ -43,11 +45,11 @@ I'd recommend using sodium alongside iris as it significantly improves the perfo
 
 #### Canvas:
 
-Canvas intended to be a replacement for optifine which cuts all ties with it to give more control to shader developers. Like iris it its still a work in progress however it is more stable than iris. It is **not** compatible with optifine shaders. Running canvas without a shader pack will give you better graphics and a performance boost over vanilla but i'd recommend using [LumiLights](https://github.com/spiralhalo/LumiLights) by [spiralhalo](https://github.com/spiralhalo) which is close to optifine shaders in graphics.
+Canvas intended to be a replacement for Optifine which cuts all ties with it to give more control to shader developers. Like iris it its still a work in progress however it is more stable than iris. It is **not** compatible with Optifine shaders. Running canvas without a shader pack will give you better graphics and a performance boost over vanilla but i'd recommend using [LumiLights](https://github.com/spiralhalo/LumiLights) by [spiralhalo](https://github.com/spiralhalo) which is close to Optifine shaders in graphics.
 
 [LumiLights website](https://spiralhalo.github.io/) tells you what versions of canvas you need and you put LumiLights in your resourcepacks folder once you have downloaded it. You will also need to downgrade your FabricAPI  to [version 0.32.5](https://github.com/FabricMC/fabric/releases/tag/0.32.5%2B1.17) or canvas (as of current) won't work.
 
-Most of the rendering settings can be found in `options > video settings` in minecraft and you will need to change the pipeline there if you want to use LumiLights.
+Most of the rendering settings can be found in `options > video settings > canvas` in minecraft and you will need to change the pipeline there if you want to use LumiLights.
 
 |                            Mod Name                            |                Description                 |                                               Links                                               |               Any thing else               |
 |:--------------------------------------------------------------:|:------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:------------------------------------------:|
