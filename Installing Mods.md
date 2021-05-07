@@ -1,6 +1,6 @@
 # Installing Mods:
 
-Installing mods is really simple, all you have to do is put the `.jar` file in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing-Fabric.md). 
+Installing mods is really simple, all you have to do is put the `.jar` file in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing%20Fabric.md). 
 
 It is generally preferred to install mods straight from GitHub (in the releases page on the right hand side) or from Modrinth instead of CurseForge as the releases available there will probably be more up to date (especially for GitHub). For the latest version (sometimes unstable) use GitHub actions or compile the mod yourself.
 
