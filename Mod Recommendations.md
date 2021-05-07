@@ -4,7 +4,7 @@
 
 ## Installing Mods:
 
-Installing mods is really simple, all you have to do is put them in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing-Fabric.md). 
+Installing mods is really simple, all you have to do is put them in the `mods` folder created at the end of [Installing fabric](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Installing%20Fabric.md). 
 
 It is generally preferred to install mods straight from GitHub (in the releases page on the right hand side) or from Modrinth instead of CurseForge as the releases available there will probably be more up to date (especially for GitHub).
 
@@ -47,7 +47,7 @@ Canvas intended to be a replacement for optifine which cuts all ties with it to 
 
 [LumiLights website](https://spiralhalo.github.io/) tells you what versions of canvas you need and you put LumiLights in your resourcepacks folder once you have downloaded it. You will also need to downgrade your FabricAPI  to [version 0.32.5](https://github.com/FabricMC/fabric/releases/tag/0.32.5%2B1.17) or canvas (as of current) won't work.
 
-Most of the rendering settings can be found in `options > video settings` in minecraft and you will need to change the pipeline there if you want to use LumiLights. 
+Most of the rendering settings can be found in `options > video settings` in minecraft and you will need to change the pipeline there if you want to use LumiLights.
 
 |                            Mod Name                            |                Description                 |                                               Links                                               |               Any thing else               |
 |:--------------------------------------------------------------:|:------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:------------------------------------------:|
@@ -181,4 +181,3 @@ If you don't care about shaders you can just use sodium, this option will give y
 | fabric-language-kotlin by [FabricMC](https://github.com/FabricMC) |                               Fabric language module for Kotlin.                                |           [GitHub](https://github.com/FabricMC/fabric-language-kotlin), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)            |                                                                        |
 |          Indium by [comp500](https://github.com/comp500)          | Adaptation of Indigo (Reference implementation of the Fabric Rendering API) for use with Sodium |                                                             [GitHub](https://github.com/comp500/Indium)                                                              | Needed for things like connected textures if sodium is also being used |
 |        malilib by [maruohon](https://github.com/maruohon)         |          MaLiLib is a library mod containing shared code for masa's client-side mods.           |                          [GitHub](https://github.com/maruohon/malilib), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/malilib)                           |                                                                        |
-
