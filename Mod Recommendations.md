@@ -14,6 +14,8 @@ You've probably already heard of Optifine and if you haven't it's a very popular
 
 Optifine is notorious for causing incompatibilities which are a pain for mod developers to fix as it is a closed source project. Optifine basically works by overwriting vanilla code when the game starts, this is a very invasive approach which can cause all kinds of problems when other mods try to interact with the game.
 
+A better explaination of why optifine = bad is on the Iris readme [here](https://github.com/IrisShaders/Iris#why-not-optifabric--optifine).
+
 ---
 
 ## The Mod List:
@@ -26,13 +28,15 @@ Iris and Canvas are both works in progress so **expect them to break**, if you c
 
 #### Iris and Sodium:
 
-Iris is intended to be a replacement for Optifine which maintains compatibility with Optifine shaders. It is still a work in progress and many shaders don't yet work or only partially work. [BSL](https://www.bitslablab.com/bslshaders/), [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders), [Sildur's Vibrant Shaders](https://sildurs-shaders.github.io/), and [XorDev's Shaderpacks](https://github.com/XorDev/Minecraft-Shaderpacks) work for the most part under Iris. Shadows are not yet implemented in the main Iris repository.
+Iris is intended to be a replacement for Optifine which maintains compatibility with Optifine shaders. It is still a work in progress and many shaders don't yet work or only partially work. [BSL](https://www.bitslablab.com/bslshaders/), [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders), [Sildur's Vibrant Shaders](https://sildurs-shaders.github.io/), and [XorDev's Shaderpacks](https://github.com/XorDev/Minecraft-Shaderpacks) work for the most part under Iris. Shadows are not yet implemented in the main Iris repository. 
 
  Iris is not yet production ready so you have to compile it yourself.
 
 To use shaders you need to edit `iris.properties` in the config folder in your minecraft folder. You will want to change the line that says `shaderPack=(internal)` to `shaderPack=the name of your shader pack` (e.g. `shaderPack=Sildurs Vibrant Shaders.zip`). Alternatively the starline fork has a shader pack selection UI so you just put the shaders in the shaderpacks folder in your minecraft directory and then select them by going into `mods > iris > configure` (assuming you have mod menu installed).
 
 I'd recommend using sodium alongside iris as it significantly improves the performance far beyond what was possible with Optifine and doesn't take too much extra effort to set up.
+
+For more information about Iris check the readme [here](https://github.com/IrisShaders/Iris#iris).
 
 |                               Mod Name                               |                                                Description                                                |                                                                                              Links                                                                                               |                                                          Any thing else                                                          |
 |:--------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------:|
@@ -47,9 +51,11 @@ I'd recommend using sodium alongside iris as it significantly improves the perfo
 
 Canvas intended to be a replacement for Optifine which cuts all ties with it to give more control to shader developers. Like iris it its still a work in progress however it is more stable than iris. It is **not** compatible with Optifine shaders. Running canvas without a shader pack will give you better graphics and a performance boost over vanilla but i'd recommend using [LumiLights](https://github.com/spiralhalo/LumiLights) by [spiralhalo](https://github.com/spiralhalo) which is close to Optifine shaders in graphics.
 
-[LumiLights website](https://spiralhalo.github.io/) tells you what versions of canvas you need and you put LumiLights in your resourcepacks folder once you have downloaded it. You will also need to downgrade your FabricAPI  to [version 0.32.5](https://github.com/FabricMC/fabric/releases/tag/0.32.5%2B1.17) or canvas (as of current) won't work.
+[LumiLights website](https://spiralhalo.github.io/) tells you what versions of canvas you need and you put LumiLights in your resourcepacks folder once you have downloaded it. You will also need to downgrade your FabricAPI  to [version 0.32.5](https://github.com/FabricMC/fabric/releases/tag/0.32.5%2B1.17) or canvas (as of current) won't work. Most of the rendering settings can be found in `options > video settings > canvas` in minecraft and you will need to change the pipeline there if you want to use LumiLights.
 
-Most of the rendering settings can be found in `options > video settings > canvas` in minecraft and you will need to change the pipeline there if you want to use LumiLights.
+If you have problems you can try using [this](https://github.com/spiralhalo/canvas/tree/1.16-spiralhalo-LTS) fork of Canvas by [spiralhalo](https://github.com/spiralhalo) (the LumiLights dev).
+
+For more information about Canvas check the readme [here](https://github.com/grondag/canvas#canvas).
 
 |                            Mod Name                            |                Description                 |                                               Links                                               |               Any thing else               |
 |:--------------------------------------------------------------:|:------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:------------------------------------------:|
@@ -59,7 +65,7 @@ Most of the rendering settings can be found in `options > video settings > canva
 
 #### Just sodium:
 
-If you don't care about shaders you can just use sodium, this option will give you the best performance and takes the least effort out of the three.
+If you don't care about shaders you can just use sodium, this option will give you the best performance and takes the least effort out of the three. Sodium surpasses Optifine in terms of performance and compatibility (especially if you use Indium).
 
 |                               Mod Name                               |                                  Description                                   |                                                                                              Links                                                                                               |
 |:--------------------------------------------------------------------:|:------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -71,6 +77,8 @@ If you don't care about shaders you can just use sodium, this option will give y
 ---
 
 ## The Rest of the Mods:
+
+No matter what mods you use from here you will probably need the Fabric API and Cloth Config from [the APIs / Librarys section](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Mod%20Recommendations.md#apis--librarys) at the bottom. You should also use Mod Menu from [the UI section](https://github.com/xX-poggers-Xx/minecraft-stuff/blob/main/Mod%20Recommendations.md#ui) if you want to be able to configure most mods.
 
 ### Performance:
 
@@ -185,6 +193,7 @@ If you don't care about shaders you can just use sodium, this option will give y
 
 
 ### APIs / Librarys:
+
 |                             Mod Name                              |                                           Description                                           |                                                                                Links                                                                                 |                             Any thing else                             |
 |:-----------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------:|
 |       FabricAPI by [FabricMC](https://github.com/FabricMC)        |                            Essential hooks for modding with Fabric.                             | [GitHub](https://github.com/FabricMC/fabric), [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api), [Modrinth](https://modrinth.com/mod/fabric-api) |             Needed by most fabric mods to access settings              |
