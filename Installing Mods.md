@@ -87,7 +87,7 @@ brew install git
 cd Desktop
 ```
 
-- Next type `git clone` with the URL you copied after it (you can also add `--depth=1` after to URL so it only downloads the most recent commits), press enter to run the command
+- Next type `git clone` with the URL you copied after it (you can also add `--depth 1` after to URL so it only downloads the most recent commits), press enter to run the command
 - Once it has cloned look at the first line which should say `Cloning into 'the mod name'...`
 - Run `cd {the mod name}` (without the curly brackets) to switch to the folder it just cloned into
 - Now run `./gradlew build --no-daemon`, this will download gradle and start compiling the mod, `--no-daemon` isn't necessary for this to work but prevents the daemon from sticking around and take up memory once the mod has been built
@@ -101,7 +101,7 @@ To install [LambDynamicLights](https://github.com/LambdAurora/LambDynamicLights)
 
 ``` bash
 cd Desktop
-git clone https://github.com/LambdAurora/LambDynamicLights.git --depth=1
+git clone https://github.com/LambdAurora/LambDynamicLights.git --depth 1
 cd LambDynamicLights
 chmod +x ./gradlew
 ./gradlew shadowRemapJar --no-daemon
