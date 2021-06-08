@@ -1,4 +1,4 @@
-I'm running [GraalVM](https://www.graalvm.org/) on mac and using [MultiMC](https://multimc.org/) with 4096 MB minimum and maximum RAM allocated.
+I'm running [GraalVM](https://www.graalvm.org/) on mac and using [GDLauncher](https://gdevs.io/) with 4096 MB maximum RAM allocated.
 
 My JVM arguments are:
 
