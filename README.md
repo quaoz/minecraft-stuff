@@ -9,3 +9,4 @@ See:
 - [Here](https://github.com/quaoz/minecraft-stuff/blob/main/Mod%20Recommendations.md) for the mods I use
 - [Here](https://github.com/quaoz/minecraft-stuff/blob/main/JVM%20agruments.md) for my extremely cursed minecraft JVM arguments (I don't recommend using them but you can try)
 - [Here](https://github.com/quaoz/minecraft-stuff/blob/main/Tools.md) for some other Minecraft related tools I use
+- [Here](https://github.com/quaoz/minecraft-stuff/blob/main/Resource%20Packs.md) for the resource packs I use

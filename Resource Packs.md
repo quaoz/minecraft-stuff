@@ -3,6 +3,7 @@
 Most of these require mods from the [graphics section](https://github.com/quaoz/minecraft-stuff/blob/main/Mod%20Recommendations.md#graphics) of my mod list, mainly connected-block-textures, chime and fabricskyboxes as well as MCPPPP from the [tools section](https://github.com/quaoz/minecraft-stuff/blob/main/Tools.md) to convert them.
 
 - [Awesome-Skies](https://github.com/heymanMC/Awesome-Skies)
+- [Fancy Skies](https://www.curseforge.com/minecraft/texture-packs/fancy-skies-v1-1-for-1-14)
 - [Chimebound](https://www.planetminecraft.com/texture-pack/alloyteam-chime-items/)
 - [Clear Dark GUI](https://www.planetminecraft.com/texture-pack/clear-gui-1-15-1-16-2/)
 - [Clean Dark Icons](https://www.planetminecraft.com/texture-pack/clean-icons-dark-1-15-1-16-2/)
@@ -16,3 +17,11 @@ Most of these require mods from the [graphics section](https://github.com/quaoz/
 - [Snowy Leaves](https://www.planetminecraft.com/texture-pack/optifine-white-leaves-and-plants-for-snow-biomes/)
 - [Dasher's Stacked Items](https://www.planetminecraft.com/texture-pack/dasher-s-stacked-items/)
 - [Vanilla Tweaks](https://vanillatweaks.net/picker/resource-packs/)
+
+# Shader Packs
+
+These are used with iris.
+
+- [Complementary Shaders](https://www.curseforge.com/minecraft/customization/complementary-shaders/files/)
+- [Prismarine Shaders](https://www.curseforge.com/minecraft/customization/prismarine-shader)
+- [Sildurs Enhanced Default](https://sildurs-shaders.github.io/downloads/)
